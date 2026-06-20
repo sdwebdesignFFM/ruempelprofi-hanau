@@ -1,0 +1,7 @@
+{
+  "name": "ruempelprofi-hanau-1",
+  "compatibility_date": "2025-10-08",
+  "assets": {
+    "directory": "./dist"
+  }
+}
