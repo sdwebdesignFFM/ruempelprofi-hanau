@@ -37,7 +37,7 @@ export const city = {
   meta: {
     title: 'Entrümpelung Hanau – Festpreis & kostenlose Besichtigung',
     description:
-      'Entrümpelung in Hanau zum garantierten Festpreis: Wohnungs- & Haushaltsauflösung, Keller, Haus & Gewerbe. Kostenlose Besichtigung, besenreine Übergabe. Jetzt anrufen!',
+      'Entrümpelung in Hanau zum garantierten Festpreis: Wohnungs- & Haushaltsauflösung, Keller, Haus & Gewerbe. Kostenlose Besichtigung, besenreine Übergabe.',
   },
 
   rating: { value: '4,9', count: 120, valueNumeric: 4.9 },
@@ -77,12 +77,12 @@ export const city = {
     h2: 'Entrümpelung für jede Situation in Hanau',
     sub: 'Ob einzelne Räume oder das komplette Objekt – wir übernehmen die gesamte Räumung und Entsorgung.',
     items: [
-      { icon: 'sofa', title: 'Wohnungsauflösung', href: '/wohnungsaufloesung-hanau', desc: 'Komplette Auflösung Ihrer Wohnung – besenrein übergeben, zum garantierten Festpreis.' },
-      { icon: 'heart-handshake', title: 'Haushaltsauflösung', href: '/haushaltsaufloesung-hanau', desc: 'Pietätvoll und zuverlässig im Trauer- oder Nachlassfall – diskret und respektvoll.' },
-      { icon: 'archive', title: 'Keller entrümpeln', href: '/keller-entruempeln-hanau', desc: 'Keller, Dachboden & Abstellräume schnell ausgeräumt, sortiert und besenrein hinterlassen.' },
-      { icon: 'house', title: 'Haus entrümpeln', href: '/haus-entruempeln-hanau', desc: 'Komplette Hausentrümpelung – von Keller bis Dachboden, alles aus einer Hand.' },
-      { icon: 'shield', title: 'Messie-Wohnung', href: '/messie-wohnung-hanau', desc: 'Diskrete und einfühlsame Entrümpelung stark verwahrloster Wohnungen – schnell und gründlich.' },
-      { icon: 'building-2', title: 'Gewerbe-Entrümpelung', href: '/gewerbe-entruempelung-hanau', desc: 'Büro, Lager & Halle: schnelle Räumung für Gewerbe, Verwaltung und Hausverwaltungen.' },
+      { icon: 'sofa', title: 'Wohnungsauflösung', href: '/wohnungsaufloesung-hanau/', desc: 'Komplette Auflösung Ihrer Wohnung – besenrein übergeben, zum garantierten Festpreis.' },
+      { icon: 'heart-handshake', title: 'Haushaltsauflösung', href: '/haushaltsaufloesung-hanau/', desc: 'Pietätvoll und zuverlässig im Trauer- oder Nachlassfall – diskret und respektvoll.' },
+      { icon: 'archive', title: 'Keller entrümpeln', href: '/keller-entruempeln-hanau/', desc: 'Keller, Dachboden & Abstellräume schnell ausgeräumt, sortiert und besenrein hinterlassen.' },
+      { icon: 'house', title: 'Haus entrümpeln', href: '/haus-entruempeln-hanau/', desc: 'Komplette Hausentrümpelung – von Keller bis Dachboden, alles aus einer Hand.' },
+      { icon: 'shield', title: 'Messie-Wohnung', href: '/messie-wohnung-hanau/', desc: 'Diskrete und einfühlsame Entrümpelung stark verwahrloster Wohnungen – schnell und gründlich.' },
+      { icon: 'building-2', title: 'Gewerbe-Entrümpelung', href: '/gewerbe-entruempelung-hanau/', desc: 'Büro, Lager & Halle: schnelle Räumung für Gewerbe, Verwaltung und Hausverwaltungen.' },
     ],
   },
 

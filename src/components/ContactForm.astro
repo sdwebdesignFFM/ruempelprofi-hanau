@@ -2,7 +2,7 @@
 import { Icon } from 'astro-icon/components';
 import { city } from '../data/hanau';
 // Versand über Web3Forms (https://web3forms.com) – funktioniert ohne Client-JS auf statischem Hosting.
-const redirectUrl = `${city.url}/danke`;
+const redirectUrl = `${city.url}/danke/`;
 ---
 <form class="cform" method="post" action="https://api.web3forms.com/submit" id="anfrage">
   <input type="hidden" name="access_key" value={city.web3formsKey} />
@@ -38,7 +38,7 @@ const redirectUrl = `${city.url}/danke`;
   </div>
   <label class="consent">
     <input type="checkbox" name="consent" required />
-    <span>Ich stimme der Verarbeitung meiner Daten gemäß <a href="/datenschutz">Datenschutzerklärung</a> zu.</span>
+    <span>Ich stimme der Verarbeitung meiner Daten gemäß <a href="/datenschutz/">Datenschutzerklärung</a> zu.</span>
   </label>
   <button class="btn btn-call btn-full" type="submit"><Icon name="lucide:send" />Jetzt unverbindlich anfragen</button>
   <div class="trustline"><Icon name="lucide:lock" />100 % unverbindlich · kostenlos · Antwort in 24 h</div>
